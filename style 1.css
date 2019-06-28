@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    background-image: url(BACK.jpg);} 
+h1{color:rgb(110, 178, 241);  
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    font-style: italic; 
+    padding: 10px;     
+    text-align: left;} 
+    h2{c:red; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+        font-style: italic; 
+        margin-right: 100px;
+        margin-left: 100px; 
+        padding: 10px;} 
+        data{color:white; 
+            font-size: 5; 
+            background-color: cadetblue; 
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;} 
+ 
+p{color: blue; font-weight: 10; 
+    text-align: justify; 
+    width: 300px; 
+    padding: 10px; 
+    margin-right: 100px; 
+    margin-left: 100px;} 
+ 
+.projects{color: white; 
+    background-color:gray;
+    padding: 10px;         
+    text-align: justify;         
+    float:left;         
+    width:50%;         
+    padding:0px;         
+    box-sizing:border-box;     
+}             
+    button{ 
+                position: relative;                 
+                color: white;                 
+                font-size: 20px;                 
+                background:gray;                                  
+                outline: none;                 
+                left: 0%;                 
+                width: 260px;                 
+                text-align: left;             
+            }             
+            #sidebar{                 
+                text-align: left;                 
+                float:right;                 
+                width:50%;                                  
+                background:none;                 
+                color:#fff; 
+                padding:0px;                 
+                box-sizing:border-box;             
+            } 
+ 
+.dev1{fill:black;  } 
+.dev2{fill:black;      } 
+.removed{ display: none; } 
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px; 
+   
+
+}
+ul li{
+    display: inline-block
+}
+
+ul li a{
+    text-decoration: none;
+    color: red;
+    padding: 5px 20px;
+    border: 1px solid black; 
+    transition: 0.6s ease;
+
+}
+ul li a:hover{
+    background-color:  rgba(81, 88, 90, 0.678);
+    color: #000;
+
+}
+
+ul li.active a{
+    background-color: red;
+    color: rgb(209, 113, 68);
+
+}

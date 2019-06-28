@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    background-image: url(BACK.jpg);
+    padding: 100px;
+    padding-top: 10px;
+}
+h1 {
+    font-family: Impact;
+    color:rgba(179, 179, 179, 0.76);
+}
+
+h2 {
+    font-family: Impact;
+    color: rgba(179, 179, 179, 0.76);
+}
+.svgClass {
+    float:left;
+    width:10%;
+    color:#fff;
+    padding:10px;
+    box-sizing:border-box;
+}
+polygon{
+    fill:white; transition: 1s fill;
+}
+polygon:hover {
+    fill: rgba(243, 109, 109, 0.671);stroke-width: 1px;
+     
+}
+.lideta { stroke:rgb(29, 29, 21);stroke-width: 0.5px;stroke-linejoin: 3; fill:rgb(31, 89, 116); fill-opacity: 50%;}
+.kirkos{stroke:greenyellow;stroke-width: 0.5px;stroke-linejoin: 3; fill:rgb(87, 61, 109); fill-opacity: 10%;}
+.nifassilk{stroke:goldenrod;stroke-width: 0.5px;stroke-linejoin: 3; fill: rgb(217, 181, 241); fill-opacity: 50%;}
+.akakikaliti {stroke:olive;stroke-width: 0.5px;stroke-linejoin: 3; fill:rgb(21, 77, 30); fill-opacity: 10%;}
+.yeka{stroke:rgb(158, 24, 24);stroke-width: 0.5px;stroke-linejoin: 3;fill:rgb(95, 29, 49); fill-opacity: 10%;}
+.bole{stroke:green;stroke-width: 0.5px;stroke-linejoin: 3; fill:rgb(42, 119, 89); fill-opacity: 10%;}
+.kolfekeraniyo{stroke: khaki;stroke-width: 0.5px;stroke-linejoin: 3; fill: rgb(75, 74, 75); fill-opacity: 50%;}
+.addisketema{stroke:palegoldenrod;stroke-width: 0.5px;stroke-linejoin: 3; fill:rgb(67, 138, 134);fill-opacity: 50%;}
+.arada{stroke:peru;stroke-width: 0.5px;stroke-linejoin: 3; fill:rgb(35, 48, 104); fill-opacity: 50%;}
+.gulele{stroke:orange;stroke-width: 0.5px; stroke-linejoin: 3; fill:rgb(111, 73, 119); fill-opacity: 50%;}
+
+.removed{
+display: none;
+}
+.button{
+
+    position:left;
+    color: rgb(95, 94, 94);
+    font-size: 20px;
+    background:rgb(109, 109, 109);
+    border:none;
+    outline: none;
+    left: 100%;
+    width: 260px;
+    text-align: left;
+    
+}
+.button.hover{
+  stroke: rgb(245, 239, 239);
+}
+#sidebar{
+    text-align: left;
+    float:right;
+    width:30%;
+    background:none;
+    color:rgb(105, 105, 105);
+    padding:0px;
+    box-sizing:border-box;
+   
+}
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 25px; 
+       
+    
+    }
+    ul li{
+        display: inline-block
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 5px 20px;
+        border: 1px solid red; 
+        transition: 0.6s ease;
+    
+    }
+    ul li a:hover{
+        background-color:  rgba(81, 88, 90, 0.678);
+        color: #000;
+    
+    }
+    
+    ul li.active a{
+        background-color: red;
+        color: rgb(41, 42, 102);
+    
+    }

@@ -1,0 +1,103 @@
+body {text-align: left;
+    COLOR:rgb(40, 8, 223);
+    background-image: url(back.jpg);
+font-family: impact;
+font-size: 20px ; 
+padding : 100px;
+}
+h1 {text-align: center;
+    color:white;
+font-family: impact;
+font-size: 50px ; 
+padding: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px; 
+   
+
+}
+ul li{
+    display: inline-block
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(231, 93, 93);
+    padding: 5px 20px;
+    border: 1px solid rgb(231, 93, 93); 
+    transition: 0.6s ease;
+
+}
+ul li a:hover{
+    background-color: rgba(81, 88, 90, 0.678);
+    color: #000;
+
+}
+
+ul li.active a{
+    background-color: black;
+    color: rgb(41, 42, 102);
+
+}
+
+.container-1{
+    display: flex;}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+ }
+ .container-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .container-1 div, 
+ .container-2 div, 
+ .container-3 div{
+     border: 1px #ccc solid; padding:10px;
+ }
+
+ .container-2-box{
+     flex-basis: 80%;}
+ .container-3-box{
+     flex-basis: 12%;}
+ 
+ .box-1{
+     flex: 1;
+     order: 1;}
+ .box-2{
+     flex: 1; 
+     order: 2;}
+ .box-3{
+     flex: 1;
+     order: 3;
+ }
+ .btn{
+    display: inline-block;
+    color: red(0, 0, 0);
+    padding: 1rem 2rem;
+    border: rgb(0, 0, 0) 1px solid;
+    margin-left: 680px;
+    opacity: 0;
+    animation-name: btn;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+  
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+  
+  .btn:hover {
+    transform: rotateY(180deg);
+  }
+  
+  @keyframes btn{
+  0%   {opacity: 0}
+  100% {opacity: 1}
+  }
+  
